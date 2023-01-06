@@ -1,0 +1,17 @@
+#footer {
+    width: 100%;
+    background-color: #E9EAEC;
+    color: #333652;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+h3 {
+    padding: 1em;
+    font-weight:bolder;
+}
+
+.copyright {
+    text-align: left;
+}

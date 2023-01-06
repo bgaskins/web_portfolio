@@ -1,0 +1,73 @@
+/************************** 
+ Projects 
+ ************************* */
+
+ #projects {
+    background-color: #282C47;
+    text-align: left;
+
+}
+
+/**************************  
+   Cards 
+************************* */
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.list-group {
+    font-size: 12px;
+}
+
+.card-link {
+    font-size: 16px;
+}
+
+
+h5 {
+    min-height: 2em;
+    font-weight: bold;
+}
+
+
+
+li {
+    min-height: 9em;
+}
+
+span {
+    padding: 1em;
+    margin: 1em;
+}
+
+
+.btn {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.card-body, p {
+    min-height: 6em;
+}
+
+/************************** 
+ Project buttons 
+ ************************* */
+
+#card-bottom {
+    background-color:#c9d6df;
+    height: 6em;
+}
+
+#card-bottom, a {
+    text-align: center;
+}
