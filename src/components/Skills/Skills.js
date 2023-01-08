@@ -15,13 +15,13 @@ class Skills extends Component {
             <h3>Knowledge</h3>
                 <ul className="list-group">
                     <li className="list-group-item border-0">                             
-                        <FontAwesomeIcon icon={faJava} size = '5x' className="me-3"/>                
-                        <FontAwesomeIcon icon={faHtml5} size = '5x' className="me-3"/>
-                        <FontAwesomeIcon icon={faCss3} size = '5x' className="me-3"/>
-                        <FontAwesomeIcon icon={faSquareJs} size = '5x' className="me-3"/>
-                        <FontAwesomeIcon icon={faAngular} size = '5x' className="me-3"/>
-                        <FontAwesomeIcon icon={faReact} size = '5x' className="me-3"/>  
-                        <FontAwesomeIcon icon={faBootstrap} size = '5x' className="me-3"/>
+                        <FontAwesomeIcon icon={faJava} size = '5x' className="me-4"/>                
+                        <FontAwesomeIcon icon={faHtml5} size = '5x' className="me-4"/>
+                        <FontAwesomeIcon icon={faCss3} size = '5x' className="me-4"/>
+                        <FontAwesomeIcon icon={faSquareJs} size = '5x' className="me-4"/>
+                        <FontAwesomeIcon icon={faAngular} size = '5x' className="me-4"/>
+                        <FontAwesomeIcon icon={faReact} size = '5x' className="me-4"/>  
+                        <FontAwesomeIcon icon={faBootstrap} size = '5x' className="me-4"/>
                     </li>   
                 </ul>
         </div>

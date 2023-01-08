@@ -4,22 +4,11 @@
 
 #knowledge { 
     text-align: center;
-    padding: 5em;
+    padding: 2em;
+    width: 75%;
 }
 
 #tools {
     text-align: center;
     height: auto;
-}
-
-    
-h3 {
-    text-align: center;
-    font-weight:bolder;
-    color: #023047;
-    padding: 2em;
-}
-
-.icon {
-    margin: 1;
 }

@@ -4,13 +4,18 @@
 ***************/
 
 #intro {
-    text-align: justify;
-    color: #000000;
-    margin-top: 6em;
-    padding: 4em;
+  display: flex;
+  text-align: justify;
+  color: #000000;
+  margin-top: 8em;
   }
-  
-  #intro-sentence {
-    text-align: center;
-    color: #000000;
-  }
+
+#image {
+  float: left;
+  margin: 1em;
+
+}
+
+#about {
+  margin-top: 1em;
+}
