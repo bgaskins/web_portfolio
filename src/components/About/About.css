@@ -6,7 +6,7 @@
 #intro {
   display: flex;
   text-align: justify;
-  color: #000000;
+  color: #094067;
   margin-top: 8em;
   }
 
@@ -18,4 +18,8 @@
 
 #about {
   margin-top: 1em;
+}
+
+strong {
+  color: #e16162;
 }

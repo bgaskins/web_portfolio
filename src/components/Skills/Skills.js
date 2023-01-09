@@ -12,16 +12,16 @@ class Skills extends Component {
     
     <div className="row">                        
         <div className="col-sm-12">
-            <h3>Knowledge</h3>
+            <h3>Skills</h3>
                 <ul className="list-group">
                     <li className="list-group-item border-0">                             
-                        <FontAwesomeIcon icon={faJava} size = '5x' className="me-4"/>                
-                        <FontAwesomeIcon icon={faHtml5} size = '5x' className="me-4"/>
-                        <FontAwesomeIcon icon={faCss3} size = '5x' className="me-4"/>
-                        <FontAwesomeIcon icon={faSquareJs} size = '5x' className="me-4"/>
-                        <FontAwesomeIcon icon={faAngular} size = '5x' className="me-4"/>
-                        <FontAwesomeIcon icon={faReact} size = '5x' className="me-4"/>  
-                        <FontAwesomeIcon icon={faBootstrap} size = '5x' className="me-4"/>
+                        <FontAwesomeIcon icon={faJava} size = '5x' className="me-4" id="icon"/>                
+                        <FontAwesomeIcon icon={faHtml5} size = '5x' className="me-4" id="icon"/>
+                        <FontAwesomeIcon icon={faCss3} size = '5x' className="me-4" id="icon"/>
+                        <FontAwesomeIcon icon={faSquareJs} size = '5x' className="me-4" id="icon"/>
+                        <FontAwesomeIcon icon={faAngular} size = '5x' className="me-4" id="icon"/>
+                        <FontAwesomeIcon icon={faReact} size = '5x' className="me-4" id="icon"/>  
+                        <FontAwesomeIcon icon={faBootstrap} size = '5x' className="me-4" id="icon"/>
                     </li>   
                 </ul>
         </div>
@@ -34,10 +34,10 @@ class Skills extends Component {
 <div className="container" id="education">
     <h3>Education</h3>
         <div className="row">
-                <div className="col-sm-1 p-2">
+                <div className="col-sm-1 p-2 mt-3">
                         <img className="img-fluid" name="logo" src="./assets/caltechlogo.png" alt="Caltech Logo" width="220" height="220"/>
                 </div>
-                    <div className="col-md-9 p-1">
+                    <div className="col-md-9 p-1 mt-3">
                         <h5 className="card-title">Caltech Center for Technology and Management Education</h5>
                         <p className="card-text">Full Stack Web Development Post Graduate Degree // Graduated Oct. 2022</p>
                     </div>
@@ -45,10 +45,10 @@ class Skills extends Component {
 
 
         <div className="row">
-            <div className="col-sm-1 p-2 mt-3">
+            <div className="col-sm-1 p-2 mb-3">
                 <img className="img-fluid" name="logo" src="./assets/uvmlogo.png" alt="UVM Logo" width="220" height="220"/>
             </div>
-                <div className="col-md-9 p-1 mt-3">
+                <div className="col-md-9 p-1 mb-3">
                     <h5 className="card-title">University of Vermont</h5>
                         <p className="card-text">Bachelor of Arts Degree in Studio Art // Graduated 2010</p>
                 </div>

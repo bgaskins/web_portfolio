@@ -4,18 +4,18 @@ import './Projects.css';
 class Projects extends Component {
   render() {
     return (
-      <>
+  
       <div className="container-fluid" id="projects">
 
       {/*****************************
                 Project cards 
         *****************************/}
+ 
+        <h3 id="project-header">Projects</h3>
 
-        <h3>Projects</h3>
             <div className="row">
-                
-                <div className="col-sm-4 align-items-stretch">
-                    <div className="card w-100 h-75 mx-auto">
+                <div className="col-sm-5 col-md-4 col-lg-4 p-4 align-items-stretch">
+                    <div className="card w-100 h-100 mx-auto">
                         <img src="./assets/lockedme.png" className="card-img-top" alt="Locked Me"/>
                         <div className="card-body">
                             <h5 className="card-title">Locked Me File Assistant</h5>
@@ -49,8 +49,8 @@ class Projects extends Component {
 
 
 
-                <div className="col-sm-4">
-                    <div className="card w-100 h-75 mx-auto">
+                <div className="col-sm-5 col-md-4 col-lg-4 p-4 align-items-stretch">
+                    <div className="card w-100 h-100 mx-auto">
                         <img src="./assets/nmscinemas.png" className="card-img-top" alt="NMS Cinemas"/>
                         <div className="card-body">
                             <h5 className="card-title">NMS Cinemas Booking App</h5>
@@ -96,8 +96,8 @@ class Projects extends Component {
                     </div>
                 </div>
 
-                <div className="col-sm-4">
-                    <div className="card w-100 h-75 mx-auto">
+                <div className="col-sm-5 col-md-4 col-lg-4 p-4 align-items-stretch">
+                    <div className="card w-100 h-100 mx-auto">
                         <img src="./assets/jaxsmarket.png" className="card-img-top" alt="Jax's Market"/>
                         <div className="card-body">
                             <h5 className="card-title">Jax's Market Grocery App</h5>
@@ -144,7 +144,7 @@ class Projects extends Component {
         </div>
 </div>
 
-</>
+
     );
   }
 }

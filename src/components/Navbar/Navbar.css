@@ -1,9 +1,11 @@
 nav {
   height: 16px;
+  color: #1D1D2C;
+
 }
 
 .navbar {
-  background-color: #ffffff;
+  background: #edf7f7;
   padding: 25px;
 }
 
@@ -12,5 +14,11 @@ nav {
 }
 
 #name {
-  font-weight: bold;
+  color: #094067;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#linkedin, #github {
+  color:#e16162;
 }

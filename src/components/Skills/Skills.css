@@ -6,9 +6,23 @@
     text-align: center;
     padding: 2em;
     width: 75%;
+    margin-bottom: 2em;
 }
+
+
 
 #tools {
     text-align: center;
     height: auto;
+}
+
+#icon, .list-group-item, li {
+    color: #A7BC5B;
+    margin-top: 10px;
+}
+
+#education {
+  position: relative;
+  color: #184E77;
+  text-align: left;
 }

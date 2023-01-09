@@ -3,10 +3,13 @@
  ************************* */
 
  #projects {
-    background-color: #282C47;
+    display: inline-flexbox;
+    background-color: #90b4ce;
     text-align: left;
+    
 
 }
+
 
 /**************************  
    Cards 
@@ -70,4 +73,8 @@ span {
 
 #card-bottom, a {
     text-align: center;
+}
+  
+.project-concepts {
+    color: #000000;
 }
