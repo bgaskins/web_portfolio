@@ -10,10 +10,10 @@ class AboutMe extends Component {
       <div className="container-fluid" id="intro">
       <div className="row">
       <div className="container-fluid">
-          <div className="col">
+          <div className="col-right">
             <img src="./assets/headshot.png" alt="headshot" width="300" height="300"/>
           </div>
-          <div className="col">
+          <div className="col-left">
           <p><strong>Hello! I'm Bryan—</strong>and I love building things for the web. I started my journey as a developer in 2021, 
                 before completing Caltech CTME’s postgraduate program in Full Stack Web Development. 
                 <span id="break"><br/><br/></span>Over the past few years, I have cultivated my knowledge with 

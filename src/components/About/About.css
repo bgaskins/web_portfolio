@@ -10,12 +10,11 @@
   display: flex;
   width: 100%;
   margin-top: 8em;
-  text-align: justify;
   color: #094067;
   box-sizing: border-box;
 }
 
-.col > img {
+.col-right > img {
   position: relative; 
   left: 3em;
   width: 290px;
@@ -24,18 +23,11 @@
   margin: 1em;
 }
 
-.col > p {
+.col-left> p {
+  text-align: justify;
+  top: 1em;
   left: 4em;
   width: 80%;
-}
-
-p{
-  top: 1em;
-}
-
-#intro > p {
-  text-align: justify;
-
 }
 
 #break {
@@ -55,7 +47,7 @@ strong {
 }
 
 @media(width < 768px) {
-  .col > p {
+  .col-left > p {
     left: 3em;
     width: 80%;
   }
@@ -63,12 +55,12 @@ strong {
 
 @media(width < 480px) {
 
-  .col > img {
+  .col-right > img {
     bottom: 2em;
     left: 1.5em;
     }
 
-  .col > p {
+  .col-left > p {
     bottom: 2em;
     left: 2.3em;
     }

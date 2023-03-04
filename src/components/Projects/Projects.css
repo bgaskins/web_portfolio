@@ -63,9 +63,6 @@ span {
 }
 
 
-h5 {
-    min-height: 2em;
-}
 
 h3 {
     margin-top: 2em;
@@ -120,7 +117,7 @@ h3 {
     
     ul > li > .badge {
         top: -5em;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     span {
@@ -131,20 +128,22 @@ h3 {
     .projects > h3 {
         bottom: 1em;
     }
-    
-    
     h5 {
-        min-height: 2em;
+        min-height: 1em;
     }
     
 }
 
 @media(width < 480px) {
 
-
+    ul > li > .badge {
+        top: -5em;
+        font-size: 13px;
+    }
     span {
         right: 2em;
         padding: .5em;
+        font-size: 12px;
     }
 
 }

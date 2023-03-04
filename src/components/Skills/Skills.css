@@ -1,7 +1,6 @@
-/***************
-    Knowledge 
- ***************/ 
-.container {
+/* Knowledge */ 
+
+ .container {
     width: 100%;
 }
 #knowledge { 
@@ -36,6 +35,10 @@
     box-sizing: border-box;
     padding-bottom: 3em;
     padding: 1em;
+}
+
+.col-80 > .card-text {
+    margin-top: 2.5em;
 }
 
 .col-20 {
@@ -86,16 +89,14 @@ h3 {
     #tools {
         margin-left: 5.5em;
     }
+
+    .col-80 > .card-text {
+        margin-top: .5em;
+    }
+    
   }
   
   @media(width < 768px) {
-    #tools {
-        left: -1em;
-    }
-} 
-
-@media(width < 480px) {
-
     .list-group-item {
         left: 1em;
         padding-top: 4em;
@@ -104,7 +105,7 @@ h3 {
         margin-left: 4em;
         padding-bottom: 2em;
 
-    }
+    } 
 
     .col-80 > h5 {
         font-size: 16px;
@@ -120,5 +121,19 @@ h3 {
         width: 95%;
 
 }
+} 
+
+@media(width < 480px) {
+
+    .list-group-item {
+        font-size: 16px;
+        left: .5em;
+        padding-top: 4em;
+    }
+    #tools {
+        margin-left: 3.5em;
+        padding-bottom: 2em;
+
+    } 
 
 }

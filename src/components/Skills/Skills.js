@@ -30,7 +30,6 @@ class Skills extends Component {
     </div>
     </div>
 </div>
-
 <div className="container">
 <h3>Education</h3>
     <div id="education">
@@ -40,6 +39,7 @@ class Skills extends Component {
                     </div>
                         <div className="col-80">
                             <h5 className="card-title">Caltech Center for Technology and Management Education</h5>
+                            
                             <p className="card-text">Full Stack Web Development Post Graduate Degree // Graduated Oct. 2022</p>
                         </div>
             </div>
