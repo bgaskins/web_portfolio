@@ -1,6 +1,4 @@
-/************************** 
- Projects 
- ************************* */
+/* Projects  */
 .container-fluid {
     width: 100%;
     text-align: left;
@@ -17,9 +15,7 @@
 }
 
 
-/**************************  
-   Cards 
-************************* */
+/* Cards */
 
 .card {
     background-color: rgb(255, 255, 255);
@@ -58,6 +54,9 @@ span {
     padding: 1em;
     margin: 1em;
 }
+
+
+/* Headers */
 
 .projects > h3 {
     bottom: 1em;
@@ -112,17 +111,16 @@ h3 {
 
 @media(width < 1024px) {
     .card-title {
-        font-size: 15px;
+        font-size: 22px;
     }
     .card-text {
         top: .5em;
-        font-size: 14px;
+        font-size: 16px;
     }
     
     ul > li > .badge {
-        position: relative;
         top: -5em;
-        font-size: 10px;
+        font-size: 15px;
     }
     
     span {
@@ -140,9 +138,13 @@ h3 {
     }
     
 }
-@media(width < 768px) {
-    
-}
+
 @media(width < 480px) {
+
+
+    span {
+        right: 2em;
+        padding: .5em;
+    }
 
 }

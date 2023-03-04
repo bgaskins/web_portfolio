@@ -7,9 +7,7 @@ class Projects extends Component {
   
       <div className="container-fluid">
         <div className="projects">
-      {/*****************************
-                Project cards 
-        *****************************/}
+     
  
         <h3 id="project-header">Projects</h3>
 
@@ -22,9 +20,7 @@ class Projects extends Component {
                             <p className="card-text">Console-based app for displaying, searching,
                                 adding, and deleting files.</p>
 
-                        {/********************************
-                           Languages/tools/GitHub button
-                         ********************************/}
+                    
 
                         <ul className="list-group list-group-flush pt-5">
                                 <li className="list-group-item">
