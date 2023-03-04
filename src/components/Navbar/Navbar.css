@@ -1,24 +1,58 @@
-nav {
-  height: 16px;
-  color: #1D1D2C;
-
-}
-
 .navbar {
-  background: #edf7f7;
-  padding: 25px;
+  background-color: #0c5179;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden; 
+  height: 55px;
+
 }
 
 .nav-item {
   transform: translateY(calc(40% - 6px));
 }
 
-#name {
-  color: #094067;
-  font-size: 24px;
-  font-weight: 400;
+.nav-list{
+  display:flex;
+  list-style-type: none;
+  margin-top: 1em;
+  padding: 0;
+  gap: 1em;
+}
+
+.logo > h2 {
+  display: flex;
+  margin-top: .5em;
+  color: #f2bc02;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 #linkedin, #github {
   color:#e16162;
+}
+
+@media(width < 1080px) {
+  .nav-list{
+    margin-right: 2em;
+  }
+
+  .logo > h2{
+    margin-left: 1em;
+ }
+}
+
+@media(width < 576px) {
+  .nav-list{
+    margin-top: 1.3em;
+    margin-right: 1.8em;
+    gap: .5em;
+  }
+
+  .logo > h2{
+    font-size: 22px;
+    color: #f2bc02;
+    margin-left: .3em;
+ }
 }

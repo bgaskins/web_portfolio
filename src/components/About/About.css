@@ -2,24 +2,79 @@
 /************** 
     Intro 
 ***************/
-
+.container-fluid {
+  width: 100%;
+}
 #intro {
+  position:relative;
   display: flex;
+  width: 100%;
+  margin-top: 8em;
   text-align: justify;
   color: #094067;
-  margin-top: 8em;
-  }
+  box-sizing: border-box;
+}
 
-#image {
+.col > img {
+  position: relative; 
+  left: 3em;
+  width: 290px;
+  height: 290px;
   float: left;
   margin: 1em;
+}
+
+.col > p {
+  left: 4em;
+  width: 80%;
+}
+
+p{
+  top: 1em;
+}
+
+#intro > p {
+  text-align: justify;
 
 }
 
-#about {
-  margin-top: 1em;
+#break {
+  display: none;
 }
 
 strong {
   color: #e16162;
 }
+
+@media(width < 1020px) {
+  #intro > p {
+    margin-top: 2em;
+    text-align: justify;
+
+  }
+}
+
+@media(width < 768px) {
+  .col > p {
+    left: 3em;
+    width: 80%;
+  }
+}
+
+@media(width < 480px) {
+
+  .col > img {
+    bottom: 2em;
+    left: 1.5em;
+    }
+
+  .col > p {
+    bottom: 2em;
+    left: 2.3em;
+    }
+
+  #break {
+    display:contents;
+  }
+}
+

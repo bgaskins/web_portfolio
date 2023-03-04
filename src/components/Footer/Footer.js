@@ -16,7 +16,6 @@ class Footer extends Component {
             <FontAwesomeIcon icon={faTerminal} size = '1x'/>                
             <div className="copyright text-muted"> © 2023 | Built by Bryan Gaskins </div>
       </div>
-           
     );
   }
 }

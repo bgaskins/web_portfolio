@@ -10,21 +10,15 @@ class Navbar extends Component {
     
       <nav className="navbar navbar-expand fixed-top">
         <div className="container-fluid">
-          <div className="w-100 h-50 d-flex">
-            <a className="navbar-brand" id="name" href="https://www.bryandgaskins.com">Bryan Gaskins</a>
+          <div className="logo">
+            <h2>Bryan Gaskins</h2>
           </div>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
+              <ul className="nav-list">
                   <a className="nav-link active" href="https://www.linkedin.com/in/bryangaskins">
-                        <FontAwesomeIcon icon={faLinkedin} size = '1x' id="linkedin" /></a>
-                  </li>
-                  <li className="nav-item">
+                    <FontAwesomeIcon icon={faLinkedin} size = '1x' id="linkedin" /></a>
                   <a className="nav-link active" href="https://github.com/bgaskins">
-                        <FontAwesomeIcon icon={faGithub} size = '1x' id="github" /></a>
-                  </li>
+                    <FontAwesomeIcon icon={faGithub} size = '1x' id="github" /></a>
               </ul>
-           </div>
           </div>
       </nav>
     );

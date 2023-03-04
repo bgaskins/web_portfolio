@@ -1,11 +1,15 @@
 #footer {
     width: 100%;
-    background-color: #edf7f7;
-    color: #094067;
+    background-color: #040232;
+    color: #ffffff;
     text-align: center;
     font-family: 'Lexend', sans-serif;
 }
 
+p { 
+    position: relative;
+    bottom: 2em;
+}
 
 h3 {
     padding: 1em;
@@ -15,3 +19,5 @@ h3 {
 .copyright {
     text-align: left;
 }
+
+
