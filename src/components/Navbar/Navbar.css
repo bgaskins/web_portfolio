@@ -30,12 +30,9 @@
   font-weight: 600;
 }
 
-#linkedin, #github {
-  margin-top: 1.5em;
-  margin-right: .1em;
+.nav-link > #linkedin, #github {
   color:#e16162;
 }
-
 
 @media(width < 1080px) {
   .nav-list{

@@ -22,11 +22,10 @@ class Projects extends Component {
 
                     
 
-                        <ul className="list-group list-group-flush pt-5">
+                        <ul className="list-group list-group-flush pt-2">
                                 <li className="list-group-item">
                                     <span className="badge rounded-pill bg-warning text-dark">Java</span>
                                     <span className="badge rounded-pill bg-warning text-dark">Console</span>                         
-
                                 </li>
                         </ul>
                         </div>
@@ -49,9 +48,11 @@ class Projects extends Component {
                                 <span className="badge rounded-pill bg-warning text-dark">Java</span>                         
                                 <span className="badge rounded-pill bg-warning text-dark">HTML5</span>                          
                                 <span className="badge rounded-pill bg-warning text-dark">CSS3</span>                           
-                                <span className="badge rounded-pill bg-warning text-dark">Angular</span>
                                 <span className="badge rounded-pill bg-warning text-dark">Typescript</span>
+                                <span className="badge rounded-pill bg-warning text-dark">Angular</span>
                                 <span className="badge rounded-pill bg-warning text-dark">SQL</span>
+                                <span className="badge rounded-pill bg-warning text-dark">AWS</span>
+
 
                             </li>
                         </ul>
@@ -87,10 +88,12 @@ class Projects extends Component {
                             <li className="list-group-item">                            
                                 <span className="badge rounded-pill bg-warning text-dark">Java</span>
                                 <span className="badge rounded-pill bg-warning text-dark">HTML5</span>                           
-                                <span className="badge rounded-pill bg-warning text-dark">CSS3</span>                           
-                                <span className="badge rounded-pill bg-warning text-dark">Angular</span>
+                                <span className="badge rounded-pill bg-warning text-dark">CSS3</span> 
                                 <span className="badge rounded-pill bg-warning text-dark">Typescript</span>
+                                <span className="badge rounded-pill bg-warning text-dark">Angular</span>
                                 <span className="badge rounded-pill bg-warning text-dark">SQL</span>
+                                <span className="badge rounded-pill bg-warning text-dark">AWS</span>
+
                             </li>
                         </ul>
                         </div>
