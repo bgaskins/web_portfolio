@@ -21,6 +21,8 @@
     padding-bottom: 3em;
 }
 #icon, .list-group-item, li {
+    position: relative;
+    bottom: .3em;
     text-align: center;
     color: #a7bc5b;
     margin-top: 8px;
