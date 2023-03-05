@@ -7,7 +7,6 @@ class Navbar extends Component {
   render() {
 
     return (
-    <div className="container-fluid">
       <nav className="navbar navbar-expand fixed-top">
         <div className="container-fluid">
           <div className="logo">
@@ -21,7 +20,6 @@ class Navbar extends Component {
               </ul>
           </div>
       </nav>
-    </div>
     );
   }
 }
