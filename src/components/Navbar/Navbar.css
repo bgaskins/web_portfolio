@@ -31,10 +31,11 @@
 }
 
 .nav-link > #linkedin, #github {
+  margin-bottom: .1em;
   color:#e16162;
 }
 
-@media(width < 1080px) {
+@media(width < 1024px) {
   .nav-list{
     margin-right: 2em;
   }
@@ -44,16 +45,3 @@
  }
 }
 
-@media(width < 576px) {
-  .nav-list{
-    margin-top: 1.3em;
-    margin-right: 1.8em;
-    gap: .5em;
-  }
-
-  .logo > h2{
-    font-size: 25px;
-    color: #f2bc02;
-    margin-left: .3em;
- }
-}

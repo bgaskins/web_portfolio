@@ -42,7 +42,7 @@
     width: 100%;
 }
 ul, li, .badge {
-    font-size: 14px;
+    font-size: 16px;
     padding: .3em;
     margin: .3em;
 }
@@ -55,6 +55,7 @@ li, .badge {
     font-weight: bold;
 }
 .btn {
+    margin-bottom: 1em;
     background-color: #000000;
     color: #ffffff;
 }
@@ -114,10 +115,6 @@ h3 {
         top: .5em;
         font-size: 16px;
     }
-    span {
-        right: 2em;
-
-    }
     .projects > h3 {
         bottom: 1em;
     }
@@ -128,16 +125,13 @@ h3 {
     ul > li > .badge {
         font-size: 14px;
         bottom: 2em;
-        left: .5em;
     }
 }
 
 @media(width < 768px) {
 
-    ul > li > .badge {
-        bottom: 3em;
-        left: -.5em;
-        font-size: 13px;
+    span {
+        right: 1.7em;
     }
 
 
