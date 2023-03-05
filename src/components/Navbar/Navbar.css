@@ -23,10 +23,10 @@
 /* Logo and icons*/
 .logo > h2 {
   display: flex;
-  margin-top: .5em;
-  margin-left: .5em;
+  margin-top: .7em;
+  margin-left: .1em;
   color: #f2bc02;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -38,22 +38,4 @@ nav > .nav-list {
 .nav-link > #linkedin, #github {
   margin-bottom: .1em;
   color:#e16162;
-}
-
-@media(width < 1024px) {
-.nav-list{
-    margin-right: .5em;
-  }
-
-  .logo > h2{
-    margin-left: .3em;
- }
-}
-
-@media(width < 576px) {
-
-
-  .logo > h2{
-    font-size: 25px;
- }
 }
