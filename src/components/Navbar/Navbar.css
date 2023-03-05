@@ -1,12 +1,11 @@
 .navbar {
+  width: 100vw;
+  height: 55px;
   background-color: #0c5179;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
   overflow: hidden; 
-  height: 55px;
-
 }
 
 .nav-item {

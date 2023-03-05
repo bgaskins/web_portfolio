@@ -16,7 +16,7 @@
 
 .col-right > img {
   position: relative; 
-  left: 3em;
+  left: 5em;
   width: 290px;
   height: 290px;
   float: left;
@@ -26,7 +26,7 @@
 .col-left> p {
   text-align: justify;
   top: 1em;
-  left: 4em;
+  left: 6em;
   width: 80%;
 }
 
