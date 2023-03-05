@@ -8,11 +8,12 @@
     display: flex;
     flex-direction: column;
 }
-
 .col-30 {
     width: 30%;
     margin: auto;
 }
+
+
 
 
 /* Cards */
@@ -27,42 +28,46 @@
     border: 3px #000000;
     box-shadow: 1px 1px 6px 1px #ccd0d5c2;
 }
+
 .card-title {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .card-text {
     font-size: 16px;
+    margin-top: 3em;
 }
 
-ul > li > .badge {
-    position: relative;
-    bottom: 3em;
+ul {
+    min-height: 100px;
+}
+
+/* Yellow bubbles in cards */
+ul, li, .badge {
     font-size: 12px;
-}
+    padding: .3em;
+    margin: .3em;
+    padding: .3em;
 
+}
 li {
+    margin-right: 2em;
     min-height: 1em;
 }
-
 .card-link {
     font-size: 16px;
     font-weight: bold;
 }
-
-span {
-    top: 0em;
-    padding: 1em;
-    margin: 1em;
+.btn {
+    background-color: #000000;
+    color: #ffffff;
 }
-
 
 /* Headers */
 
 .projects > h3 {
     bottom: 1em;
 }
-
-
 
 h3 {
     margin-top: 2em;
@@ -84,18 +89,14 @@ h3 {
     z-index: -1;
   }
 
-  .btn {
-    background-color: #000000;
-    color: #ffffff;
-}
 
-/************************** 
- Project buttons 
- ************************* */
+
+/* Project buttons */
 
 #card-bottom {
     background-color: #a7bc5b;
-    height: 6em;
+    min-height: 3em;
+
 }
 
 #card-bottom, a {
@@ -106,9 +107,15 @@ h3 {
     color: #000000;
 }
 
+
+
+
+
+
 @media(width < 1024px) {
+
     .card-title {
-        font-size: 22px;
+        font-size: 20px;
     }
     .card-text {
         top: .5em;
@@ -116,13 +123,12 @@ h3 {
     }
     
     ul > li > .badge {
-        top: -5em;
-        font-size: 14px;
+
     }
     
     span {
-        padding: 0em;
-        margin: .35em;
+        right: 2em;
+
     }
     
     .projects > h3 {
@@ -131,6 +137,7 @@ h3 {
     h5 {
         min-height: 1em;
     }
+
     
 }
 
@@ -140,10 +147,6 @@ h3 {
         top: -5em;
         font-size: 13px;
     }
-    span {
-        right: 2em;
-        padding: .5em;
-        font-size: 12px;
-    }
+
 
 }

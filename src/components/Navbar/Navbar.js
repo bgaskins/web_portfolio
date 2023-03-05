@@ -7,7 +7,7 @@ class Navbar extends Component {
   render() {
 
     return (
-    
+    <div className="container-fluid">
       <nav className="navbar navbar-expand fixed-top">
         <div className="container-fluid">
           <div className="logo">
@@ -15,12 +15,13 @@ class Navbar extends Component {
           </div>
               <ul className="nav-list">
                   <a className="nav-link active" href="https://www.linkedin.com/in/bryangaskins">
-                    <FontAwesomeIcon icon={faLinkedin} size = '1x' id="linkedin" /></a>
+                    <FontAwesomeIcon icon={faLinkedin} size = '2x' id="linkedin" /></a>
                   <a className="nav-link active" href="https://github.com/bgaskins">
-                    <FontAwesomeIcon icon={faGithub} size = '1x' id="github" /></a>
+                    <FontAwesomeIcon icon={faGithub} size = '2x' id="github" /></a>
               </ul>
           </div>
       </nav>
+    </div>
     );
   }
 }

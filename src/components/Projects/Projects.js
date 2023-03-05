@@ -25,7 +25,6 @@ class Projects extends Component {
                         <ul className="list-group list-group-flush pt-5">
                                 <li className="list-group-item">
                                     <span className="badge rounded-pill bg-warning text-dark">Java</span>
-                                    <span className="badge rounded-pill bg-warning text-dark"></span>                         
                                     <span className="badge rounded-pill bg-warning text-dark">Console</span>                         
 
                                 </li>

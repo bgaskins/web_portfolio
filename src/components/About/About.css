@@ -7,6 +7,7 @@
 }
 #intro {
   position:relative;
+  right: 1.5em;
   display: flex;
   width: 100%;
   margin-top: 8em;
@@ -39,30 +40,37 @@ strong {
 }
 
 @media(width < 1020px) {
-  #intro > p {
+  #intro > .col-left > p {
     margin-top: 2em;
     text-align: justify;
-
   }
 }
 
 @media(width < 768px) {
+  #intro {
+    right: 3.1em;
+  }
+  .col-right > img {
+    left: 5em;
+    }
   .col-left > p {
-    left: 3em;
-    width: 80%;
+    right: 3em;
   }
 }
 
 @media(width < 480px) {
 
+  #intro {
+    right: 3.9em;
+  }
+
   .col-right > img {
-    bottom: 2em;
-    left: 1.2em;
+    bottom: 1.5em;
+    left: 5em;
     }
 
   .col-left > p {
     bottom: 2em;
-    left: 2.1em;
     }
 
   #break {

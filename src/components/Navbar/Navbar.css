@@ -20,17 +20,22 @@
   gap: 1em;
 }
 
+/* Logo and icons*/
 .logo > h2 {
   display: flex;
   margin-top: .5em;
+  margin-left: .5em;
   color: #f2bc02;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 #linkedin, #github {
+  margin-top: 1.5em;
+  margin-right: .1em;
   color:#e16162;
 }
+
 
 @media(width < 1080px) {
   .nav-list{
@@ -38,7 +43,7 @@
   }
 
   .logo > h2{
-    margin-left: 1em;
+    margin-left: .3em;
  }
 }
 
@@ -50,7 +55,7 @@
   }
 
   .logo > h2{
-    font-size: 22px;
+    font-size: 25px;
     color: #f2bc02;
     margin-left: .3em;
  }
