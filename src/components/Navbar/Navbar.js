@@ -14,9 +14,9 @@ class Navbar extends Component {
           </div>
               <ul className="nav-list">
                   <a className="nav-link active" href="https://www.linkedin.com/in/bryangaskins">
-                    <FontAwesomeIcon icon={faLinkedin} size = '2x' id="linkedin" /></a>
+                    <FontAwesomeIcon icon={faLinkedin} size = 'lg' id="linkedin" /></a>
                   <a className="nav-link active" href="https://github.com/bgaskins">
-                    <FontAwesomeIcon icon={faGithub} size = '2x' id="github" /></a>
+                    <FontAwesomeIcon icon={faGithub} size = 'lg' id="github" /></a>
               </ul>
           </div>
       </nav>
