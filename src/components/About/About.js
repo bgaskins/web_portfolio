@@ -16,10 +16,11 @@ class AboutMe extends Component {
           <div className="col-left">
           <p><strong>Hello! I'm Bryan—</strong>and I love building things for the web. I started my journey as a developer in 2021, 
                 before completing Caltech CTME’s postgraduate program in Full Stack Web Development. 
-                <span id="break"><br/><br/></span>Over the past few years, I have cultivated my knowledge with 
-                certifications, studying documentation, and building projects for personal growth.
+                <span id="break"><br/><br/></span>Over the years, I have cultivated my knowledge with 
+                certifications, self-learning, development communities, and building interesting projects that make me a better developer. 
                 <br/><br/>
-                Currently, I'm working through the MERN stack, with a React Native project blending e-commerce and live video.   
+                Right now, I'm working with React Native—implementing live video and e-commerce on a social, shopping app. Early days.
+
                 <br/><br/>
                 Thank you for visiting my portfolio. I hope you enjoy exploring some of my work and 
                 learning more about my background and qualifications.<br/></p>
