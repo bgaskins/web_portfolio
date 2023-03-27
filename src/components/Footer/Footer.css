@@ -1,9 +1,8 @@
 #footer {
     min-width: 100vw;
-    background-color: #040232;
+    background-color: #030125;
     color: #ffffff;
     text-align: center;
-    font-family: 'Lexend', sans-serif;
 }
 
 p { 
@@ -18,6 +17,7 @@ h3 {
 
 .copyright {
     text-align: left;
+    margin-left: .2em;
     font-size: 16px;
 }
 
