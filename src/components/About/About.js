@@ -11,7 +11,7 @@ class AboutMe extends Component {
       <div className="row">
       <div className="container-fluid">
           <div className="col-right">
-            <img src="./assets/photo.jpg" alt="headshot" width="300" height="324"/>
+            <img src="./assets/photo.jpg" alt="headshot" width="300" height="340"/>
           </div>
           <div className="col-left">
           <p><strong>Hello! I'm Bryan—</strong>and I love building things for the web. I started my journey as a developer in 2021, 

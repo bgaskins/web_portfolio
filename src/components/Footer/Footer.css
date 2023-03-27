@@ -1,6 +1,6 @@
 #footer {
     min-width: 100vw;
-    background-color: #000000;
+    background-color: #2a92ae;
     color: #ffffff;
     text-align: center;
 }
@@ -17,8 +17,12 @@ h3 {
 
 .copyright {
     text-align: left;
-    margin-left: .2em;
-    font-size: 16px;
+    margin-left: 1em;
+    font-size: 13px;
+}
+
+#icon {
+    color: #ffffff;
 }
 
 

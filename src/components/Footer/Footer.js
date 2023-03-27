@@ -15,7 +15,7 @@ class Footer extends Component {
             </p>
             
             <FontAwesomeIcon icon={faTerminal} size = '2xs'/>                
-            <div className="copyright text-muted"> © 2023 | Built by Bryan Gaskins with <FontAwesomeIcon icon={faReact} size = '1x' className="me-4" id="icon"/>  
+            <div className="copyright"> © 2023 | Built by Bryan Gaskins with <FontAwesomeIcon icon={faReact} size = '1x' className="me-4" id="icon"/>  
 </div>
       </div>
     );
