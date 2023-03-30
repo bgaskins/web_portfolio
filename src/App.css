@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
 main {
   background-color: #fffffe;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', monospace;
   font-size:18px;
   width: 100vw;
   height: 100vh;
@@ -11,6 +12,8 @@ main {
 }
 
 h3 {
+  font-family: 'Roboto Mono', monospace;
+
   margin-bottom: 2em;
   padding: 30px 0 8px;
   color: #040232;

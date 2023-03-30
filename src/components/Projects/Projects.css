@@ -55,6 +55,7 @@ li, .badge {
     font-weight: bold;
 }
 .btn {
+    font-family: 'Roboto Mono', monospace;
     margin-bottom: 1em;
     background-color: #000000;
     color: #ffffff;

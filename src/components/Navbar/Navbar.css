@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 .navbar {
   min-width: 100vw;
   height: 55px;
@@ -22,10 +24,11 @@
 
 /* Logo and icons*/
 .logo > h2 {
+  font-family: 'Roboto Mono', monospace;
   display: flex;
   margin-top: .7em;
   margin-left: .1em;
-  color: #f2bc02;
+  color: #cee0e7;
   font-size: 30px;
   font-weight: 600;
 }
