@@ -24,7 +24,7 @@ class Skills extends Component {
                         <FontAwesomeIcon icon={faBootstrap} size = '4x' className="me-4" id="icon"/>
                     </li>   
                 </ul> 
-                <div id="tools"><strong>Tools:</strong> MySQL, Tomcat, Jenkins, Git/GitHub, AWS, Eclipse, VS Code, Postman, Adobe In/Ai/Ps
+                <div id="tools"><strong>Tools:</strong> MySQL, Apache, Jenkins, Git/GitHub, AWS, Eclipse, VS Code, Postman, Adobe In/Ai/Ps
         </div>
         </div>
     </div>
