@@ -19,7 +19,7 @@ class AboutMe extends Component {
                 <span id="break"><br/><br/></span>Over the years, I have cultivated my knowledge with 
                 certifications, self-learning, development communities, and building interesting projects that make me a better developer. 
                 <br/><br/>
-                Right now, I'm working with React Native—implementing live video and e-commerce on a social, shopping app. Early days.
+                Right now, I'm digging into natural language processing and how to implement that with live video, on a social app for e-commerce. Early days.
 
                 <br/><br/>
                 Thank you for visiting my portfolio. I hope you enjoy exploring some of my work and 
