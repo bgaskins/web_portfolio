@@ -16,10 +16,10 @@ class AboutMe extends Component {
           <div className="col-left">
           <p><strong>Hello! I'm Bryan—</strong>and I love building things for the web. I started my journey as a developer in 2021, 
                 before completing Caltech CTME’s postgraduate program in Full Stack Web Development. 
-                <span id="break"><br/><br/></span>Over the years, I have cultivated my knowledge with 
+                <span id="break"><br/><br/></span> Over the years, I have cultivated my knowledge with 
                 certifications, self-learning, development communities, and building interesting projects that make me a better developer. 
                 <br/><br/>
-                Right now, I'm digging into natural language processing and how to implement that, with live video, on a social app for e-commerce. Early days.
+                Right now, I'm exploring natural language processing for an e-commerce, social app with live video and chat features. Early days.
 
                 <br/><br/>
                 Thank you for visiting my portfolio. I hope you enjoy exploring some of my work and 
