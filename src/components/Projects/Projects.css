@@ -62,8 +62,10 @@ li, .badge {
 }
 
 .btn:hover {
-    background-color: #ccd0d5c2;
-    color: #ffffff;
+    border: 1px;
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* Headers */
