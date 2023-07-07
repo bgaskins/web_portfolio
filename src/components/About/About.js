@@ -18,7 +18,7 @@ class AboutMe extends Component {
                 completing Caltech CTME’s postgraduate program in Full Stack Web Development. 
                 <span id="break"><br/><br/></span> Over the years, I've gained working knowledge of the most popular frontend and backend technologies. 
                 <br/><br/>
-                Right now, I'm staying involved with learning opportunities, developer communities, and building interesting projects that make me a better developer. 
+                Right now, I'm still involved with learning opportunities, developer communities, and building interesting projects that make me a better developer. 
                 
                 I'm also exploring natural language processing and AI implementation in the e-commerce world. 
 
