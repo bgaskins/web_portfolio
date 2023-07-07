@@ -44,6 +44,7 @@ strong {
 #opp {
   font-size: 10px;
   color: #e16162;
+  margin-top: 1em;
 }
 
 @media(width < 1020px) {
