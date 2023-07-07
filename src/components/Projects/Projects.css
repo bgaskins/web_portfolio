@@ -18,7 +18,7 @@
 
 .card {
     justify-content: between;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     position: relative;
     bottom: 1em;
     width: 100%; 
@@ -58,6 +58,11 @@ li, .badge {
     font-family: 'Roboto Mono', monospace;
     margin-bottom: 1em;
     background-color: #000000;
+    color: #ffffff;
+}
+
+.btn :hover {
+    background-color: #ccd0d5c2;
     color: #ffffff;
 }
 
