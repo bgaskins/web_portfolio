@@ -19,12 +19,9 @@ class AboutMe extends Component {
                 <span id="break"><br/><br/></span> Over the years, I've gained working knowledge of the most popular frontend and backend technologies. 
                 <br/><br/>
                 Right now, I'm still involved with learning opportunities, developer communities, and building interesting projects that make me a better developer. 
-                
                 I'm also exploring natural language processing and AI implementation in the e-commerce world. 
-
                 <br/><br/>
-                Thanks for visiting my portfolio. I hope you enjoy exploring some of my work and 
-                learning more about my background and qualifications. 
+                Have an opportunity? Let's chat!
                 <br/></p>
             </div>
           </div>
