@@ -43,6 +43,7 @@ strong {
 
 #opp {
   font-size: 10px;
+  color: #e16162;
 }
 
 @media(width < 1020px) {
