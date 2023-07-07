@@ -61,7 +61,7 @@ li, .badge {
     color: #ffffff;
 }
 
-.btn :hover {
+.btn:hover {
     background-color: #ccd0d5c2;
     color: #ffffff;
 }
