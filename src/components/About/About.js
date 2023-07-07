@@ -14,16 +14,19 @@ class AboutMe extends Component {
             <img src="./assets/photo.jpg" alt="headshot"/>
           </div>
           <div className="col-left">
-          <p><strong>Hello! I'm Bryan—</strong>and I love building things for the web. I started my journey as a developer in 2021, 
+          <p><strong>Hi, I'm Bryan—</strong>and I love building things for the web. My interest in tech I started my journey as a developer in 2021, 
                 before completing Caltech CTME’s postgraduate program in Full Stack Web Development. 
                 <span id="break"><br/><br/></span> Over the years, I have cultivated my knowledge with 
-                certifications, self-learning, development communities, and building interesting projects that make me a better developer. 
+                certifications, development communities, and building interesting projects that make me a better developer. 
                 <br/><br/>
-                Right now, I'm exploring natural language processing for an e-commerce, social app with live video and chat features. Early days.
+                Right now, I'm exploring natural language processing and AI implementation in the e-commerce world. 
 
                 <br/><br/>
                 Thank you for visiting my portfolio. I hope you enjoy exploring some of my work and 
-                learning more about my background and qualifications.<br/></p>
+                learning more about my background and qualifications. 
+
+                <strong><p id="opp">*Open to opportunities!</p></strong>
+                <br/></p>
             </div>
           </div>
           </div>

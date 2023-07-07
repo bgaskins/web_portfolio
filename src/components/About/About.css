@@ -41,6 +41,10 @@ strong {
   color: #e16162;
 }
 
+#opp {
+  font-size: 10px;
+}
+
 @media(width < 1020px) {
   #intro > .col-left > p {
     margin-top: 2em;
