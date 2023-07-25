@@ -24,8 +24,8 @@ class AboutMe extends Component {
                     <br/><br/>
                     Prior to web development, I wore many hats. I have experience in marketing for live events, sales, and even real estate.
                     <br/><br/>
-                    <br/></p>
                     Have an opportunity? Let's chat!            
+                    <br/></p>
               </div>
             </div>
           </div>
