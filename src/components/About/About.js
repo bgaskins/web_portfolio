@@ -14,7 +14,7 @@ class AboutMe extends Component {
               <img src="./assets/photo.jpg" alt="headshot"/>
             </div>
               <div className="col-left">
-              <p><strong>Hi, my name is Bryan.</strong>I'm an artist and full stack web developer based near Worcester, MA.
+              <p><strong>Hi, my name is Bryan.</strong> I'm an artist and full stack web developer based near Worcester, MA.
                     <br/><br/>
                     I started in web development in 2021—before I was a student in Caltech CTME's full stack web dev postgrad program. 
                     I spent 9 months learning the fundamentals of front-end and back-end technologies and frameworks.
