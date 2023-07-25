@@ -14,16 +14,20 @@ class AboutMe extends Component {
             <img src="./assets/photo.jpg" alt="headshot"/>
           </div>
           <div className="col-left">
-          <p><strong>Hi, I'm Bryan—</strong>and I love building things for the web. In 2021, I began teaching myself web development, eventually 
-                completing Caltech CTME’s postgraduate program in Full Stack Web Development. 
-                <span id="break"><br/><br/></span> Over the years, I've gained working knowledge of the most popular frontend and backend technologies. 
+          <p><strong>Hi, my name is Bryan.</strong>I'm an artist and full stack web developer based near Worcester, MA.
+          I started in web development in 2021—before I was a student in Caltech CTME's full stack web dev postgrad program. 
+          I spent 9 months learning the fundamentals of front-end and back-end technologies and frameworks.
+          <br/><br/>
+          Right now, I'm taking night classes to further my front-end skills, and working on full stack projects that might 
+          have use some day.
+
+                <span id="break"><br/><br/></span> 
                 <br/><br/>
-                Right now, I'm still involved with learning opportunities, developer communities, and building interesting projects that make me a better developer. 
-                I'm also exploring natural language processing and AI implementation in the e-commerce world. 
+          Prior to web development, I wore many hats. I have experience in marketing for live events, sales, and even real estate.
                 <br/><br/>
-                Have an opportunity? Let's chat!
                 <br/></p>
-            </div>
+          Have an opportunity? Let's chat!            
+          </div>
           </div>
           </div>
           </div>
