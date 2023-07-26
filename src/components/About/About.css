@@ -17,6 +17,7 @@
 
 .col-right > img {
   position: relative; 
+  align-content: left;
   left: 5em;
   width: 292.5px;
   height: 308.5px;
@@ -26,20 +27,31 @@
 
 .col-left> p {
   text-align: justify;
+  align-content: right;
+  text-decoration: none;
+  font-size: 16px;
   top: 1em;
   left: 6em;
   width: 80%;
 }
 
-#break {
-  display: none;
-}
-
 strong {
   font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
+  font-size: 16.5px;
   color: #e16162;
 }
+
+#eye-icon {
+  color: #a7bc5b;
+}
+
+span {
+  color: #e16162;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
 
 @media(width < 1020px) {
   #intro > .col-left > p {
