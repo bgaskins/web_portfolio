@@ -40,3 +40,22 @@ nav > .nav-list {
   margin-bottom: .1em;
   color:#e16162;
 }
+
+button, #resume {
+  position: relative;
+  color: #030125;
+  background-color:#cee0e7;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#asterisk {
+  position: relative;
+  font-size: 20px;
+  color: #f2bc02;
+  z-index: 10;
+  left: 2.3em;
+  bottom: 1em;
+}
