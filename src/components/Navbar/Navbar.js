@@ -11,7 +11,7 @@ downloadPdf() {
 
   downloadButton.addEventListener('click', function () {
     //Resume pdf
-    const pdfUrl = 'assets/BryanGaskins-Resume.pdf';
+    const pdfUrl = '/assets/BryanGaskins-Resume.pdf';
 
     const a = document.createElement('a');
     a.href = pdfUrl;
