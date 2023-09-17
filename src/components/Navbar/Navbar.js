@@ -11,14 +11,12 @@ downloadPdf() {
 
   downloadButton.addEventListener('click', function () {
     //Resume pdf
-    const pdfUrl = './assets/BryanGaskins-Resume.pdf';
+    const pdfUrl = 'assets/BryanGaskins-Resume.pdf';
 
-    //Create an anchor element
     const a = document.createElement('a');
     a.href = pdfUrl;
     a.download = 'BryanGaskins-Resume.pdf';
 
-    // Trigger a click event on the anchor to start the download
     a.click();
   });
 }
