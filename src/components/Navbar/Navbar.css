@@ -53,9 +53,9 @@ button, #resume {
 
 #asterisk {
   position: relative;
-  font-size: 20px;
+  font-size: 16px;
   color: #f2bc02;
   z-index: 10;
-  left: 2.3em;
+  left: 2.8em;
   bottom: 1em;
 }
