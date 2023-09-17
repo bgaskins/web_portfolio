@@ -4,7 +4,25 @@ import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Navbar.css';
 
+
 class Navbar extends Component {
+downloadPdf() {
+  const downloadButton = document.getElementById('downloadButton');
+
+  downloadButton.addEventListener('click', function () {
+    //Resume pdf
+    const pdfUrl = './assets/BryanGaskins-Resume.pdf';
+
+    //Create an anchor element
+    const a = document.createElement('a');
+    a.href = pdfUrl;
+    a.download = 'BryanGaskins-Resume.pdf';
+
+    // Trigger a click event on the anchor to start the download
+    a.click();
+  });
+}
+
   render() {
     return (
       <nav className="navbar navbar-expand fixed-top">
@@ -14,13 +32,7 @@ class Navbar extends Component {
           </div>
               <ul className="nav-list">
               <FontAwesomeIcon id="asterisk" icon={faAsterisk} size = '2x' className="me-4 mt-2"/>
-                <button>
-                  <a 
-                    id="resume" 
-                    href="./assets/BryanGaskins-Resume.pdf" 
-                    download="BryanGaskins-Resume.pdf"
-                    onClick={(e) => e.stopPropagation()}>Resume</a>
-                </button>
+                <button onClick={this.downloadPdf} id="downloadButton">Resume</button>
                 <a className="nav-link active" href="https://www.linkedin.com/in/bryangaskins">
                   <FontAwesomeIcon id="linkedin" icon={faLinkedin} size = 'lg' /></a>
                 <a className="nav-link active" href="https://github.com/bgaskins">
