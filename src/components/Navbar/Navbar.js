@@ -9,7 +9,7 @@ class Navbar extends Component {
 
   handleDownload() {
     // File path
-    const pdfPath = '/assets/BryanGaskins-Resume.pdf';
+    const pdfPath = 'public/assets/BryanGaskins-Resume.pdf';
   
     // Fetch the PDF file using the fetch() API
     fetch(process.env.PUBLIC_URL + pdfPath)
