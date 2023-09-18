@@ -6,14 +6,15 @@ import './Navbar.css';
 
 
 class Navbar extends Component {
+
 downloadPdf() {
   const downloadButton = document.getElementById('downloadButton');
 
   downloadButton.addEventListener('click', function () {
     //Resume pdf
-    const pdfUrl = `${process.env.PUBLIC_URL}/assets/BryanGaskins-Resume.pdf`;
+    const pdfUrl = `./downloads/BryanGaskins-Resume.pdf`;
 
-    const a = document.createElement('a');
+    const a = document.createElement('a'); /* Anchor element */
     a.href = pdfUrl;
     a.download = 'BryanGaskins-Resume.pdf';
 
