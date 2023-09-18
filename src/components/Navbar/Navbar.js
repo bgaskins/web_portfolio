@@ -7,20 +7,41 @@ import './Navbar.css';
 
 class Navbar extends Component {
 
-downloadPdf() {
-  const downloadButton = document.getElementById('downloadButton');
-
-  downloadButton.addEventListener('click', function () {
-    //Resume pdf
-    const pdfUrl = `/public/downloads/BryanGaskins-Resume.pdf`;
-
-    const a = document.createElement('a'); /* Anchor element */
-    a.href = process.env.PUBLIC_URL + pdfUrl;
-    a.download = 'BryanGaskins-Resume.pdf';
-
-    a.click();
-  });
-}
+  handleDownload() {
+    // File path
+    const pdfPath = '/assets/BryanGaskins-Resume.pdf';
+  
+    // Fetch the PDF file using the fetch() API
+    fetch(process.env.PUBLIC_URL + pdfPath)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.blob();
+      })
+      .then((blob) => {
+        // Blob URL for the PDF data
+        const blobUrl = URL.createObjectURL(blob);
+  
+        // Anchor element
+        const link = document.createElement('a');
+  
+        // Href attribute set to the blob URL
+        link.href = blobUrl;
+  
+        // Download filename
+        link.download = 'BryanGaskins-Resume.pdf';
+  
+        // Trigger the click for button
+        link.click();
+  
+        // Release the blob URL when done
+        URL.revokeObjectURL(blobUrl);
+      })
+      .catch((error) => {
+        console.error('Error downloading PDF:', error);
+      });
+  }
 
   render() {
     return (
@@ -31,7 +52,7 @@ downloadPdf() {
           </div>
               <ul className="nav-list">
               <FontAwesomeIcon id="asterisk" icon={faAsterisk} size = '2x' className="me-4 mt-2"/>
-                <button onClick={this.downloadPdf} id="downloadButton">Resume</button>
+                <button onClick={this.handleDownload} id="downloadButton">Resume</button>
                 <a className="nav-link active" href="https://www.linkedin.com/in/bryangaskins">
                   <FontAwesomeIcon id="linkedin" icon={faLinkedin} size = 'lg' /></a>
                 <a className="nav-link active" href="https://github.com/bgaskins">
