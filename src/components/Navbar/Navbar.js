@@ -12,7 +12,7 @@ downloadPdf() {
 
   downloadButton.addEventListener('click', function () {
     //Resume pdf
-    const pdfUrl = `/downloads/BryanGaskins-Resume.pdf`;
+    const pdfUrl = `/public/downloads/BryanGaskins-Resume.pdf`;
 
     const a = document.createElement('a'); /* Anchor element */
     a.href = process.env.PUBLIC_URL + pdfUrl;
