@@ -1,48 +1,42 @@
-
-/************** 
-    Intro 
-***************/
-.container-fluid {
-  width: 100%;
-}
+/* Updated styles for columns */
 #intro {
-  position:relative;
-  right: 1.5em;
   display: flex;
-  width: 100%;
-  margin-top: 8em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   color: #000000;
-  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 2em;
+  margin-top: 8em;
+  width: 100%;
 }
 
-.col-right > img {
-  position: relative; 
-  align-content: left;
-  left: 5em;
-  width: 292.5px;
-  height: 308.5px;
-  float: left;
-  margin: 1em;
+#intro > .col-right,
+#intro > .col-left {
+  flex: 1;
+  margin: 0.5em;
 }
 
-.col-left> p {
+#intro > .col-left > img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-left: 7em;
+  border: 1px solid #000000;
+}
+
+#intro > .col-right > p {
+  font-size: 22px;
   text-align: justify;
-  align-content: right;
-  text-decoration: none;
-  font-size: 16px;
-  top: 1em;
-  left: 6em;
-  width: 80%;
+  margin: 0.5em; 
+  margin-right: 5em;
+
 }
 
 strong {
   font-family: 'Roboto Mono', monospace;
-  font-size: 16.5px;
+  font-size: 28px;
   color: #e16162;
-}
-
-#eye-icon {
-  color: #a7bc5b;
 }
 
 span {
@@ -51,44 +45,57 @@ span {
   font-weight: bold;
 }
 
+/* Media queries */
+@media screen and (max-width: 1024px) {
 
+  #intro > .col-left > img {
+    max-width: 280px;
+    margin-left: 4em;
+  
+  }
 
-@media(width < 1020px) {
-  #intro > .col-left > p {
-    margin-top: 2em;
+  #intro > .col-right > p {
+    font-size: 20px;
     text-align: justify;
+    margin: 0.5em;
+    margin-right: 2em;
   }
 }
 
-@media(width < 768px) {
+@media screen and (max-width: 768px) {
   #intro {
-    right: 3.1em;
-  }
-  .col-right > img {
-    left: 5em;
-    }
-  .col-left > p {
-    right: 3em;
-  }
-}
-
-@media(width < 480px) {
-
-  #intro {
-    right: 3.9em;
+    padding: 1em;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .col-right > img {
-    bottom: 1.5em;
-    left: 5em;
-    }
+  #intro > .col-left > img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    margin-right: 7em;
 
-  .col-left > p {
-    bottom: 2em;
-    }
+  }
 
-  #break {
-    display:contents;
+  #intro > .col-right > p {
+    font-size: 20px; /* Adjust font size for better spacing */
+    text-align: justify;
+    margin: 0.5em;
+    margin-bottom: 3em;
   }
 }
 
+@media screen and (max-width: 480px) {
+
+  #intro > .col-left > img {
+    margin-left: -.1em;
+
+  }
+  #intro > .col-right > p {
+    font-size: 16px; /* Adjust font size for better spacing */
+    text-align: justify;
+    margin: 0.5em;
+  }
+}

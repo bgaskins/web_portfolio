@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 main {
-  background-color: #fffffe;
   font-family: 'DM Sans', sans-serif;
   font-size:18px;
   width: 100vw;
@@ -12,21 +12,32 @@ main {
 
 h3 {
   font-family: 'Roboto Mono', monospace;
-  margin-bottom: 2em;
-  padding: 30px 0 8px;
-  color: #040232;
-  text-shadow: -2px 0px 0px #ffffff;
-  text-align: center;
+  font-size: 3.5em;
+  padding: 30px 0 40px;
+  color: #ffffff;
+  text-align: left;
   z-index: 0;
+  margin-left: 1.5em;
 }
 
-h3:before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 175px;
-  height: 30px;
-  transform: skew(-12deg) translateX(-50%);
-  background: #f2bc02;
-  z-index: -1;
+@media (max-width: 1024px) {
+  h3 {
+    font-size: 2.5em;
+    padding: 15px 0 20px;
+    margin-left: 1em;
+  }
 }
+
+/* iPhone size */
+@media (max-width: 414px) {
+  h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: -.4em;
+
+  }
+}
+
+
+
+

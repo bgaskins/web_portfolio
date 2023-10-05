@@ -1,28 +1,48 @@
 #footer {
     min-width: 100vw;
-    background-color: #147c99;
+    background-color: #005078;
     color: #ffffff;
     text-align: center;
 }
 
-p { 
-    position: relative;
-    bottom: 2em;
-}
-
 h3 {
-    padding: 1em;
-    font-weight:bolder;
+    margin-top: 2em;
+    padding: 1em 0;
+    color: #040232;
+    text-shadow: -2px 0px 0px #ffffff;
+    text-align: left;
+    z-index: 0;
+  }
+
+#footer p { 
+    position: relative;
+    margin-top: 3em;
+    font-size: 30px;
+    bottom: 2em;
 }
 
 .copyright {
     text-align: left;
     margin-left: 1em;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 #icon-copyright {
     color: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+    #footer p {
+        font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #footer p {
+        font-size: 20px;
+        padding: 20px;
+        margin-top: 2em;
+    }
+  }
 
 

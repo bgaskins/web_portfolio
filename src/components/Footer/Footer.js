@@ -7,8 +7,8 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <div id="footer">
-        <h3>Contact</h3>
+      <div className="container-fluid" id="footer">
+        <h3>CONTACT</h3>
             <p className="contact">
             508-769-9222<br/>
             bryandgaskins@gmail.com 

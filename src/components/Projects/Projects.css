@@ -1,52 +1,90 @@
-/* Projects  */
+/* Projects */
 .container-fluid {
     width: 100%;
     text-align: left;
+    padding: .5em .5em .5em .5em;
+    color: #ffffff;
+    background-color: #030125;
 }
- .projects {
+.projects {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-bottom: 4em;
 }
+
+.projects > h3 {
+    padding: 1em 0;
+}
+
 .col-30 {
     width: 30%;
     margin: auto;
 }
 
-
 /* Cards */
-
 .card {
-    justify-content: between;
     background-color: #ffffff;
-    position: relative;
-    bottom: 1em;
-    width: 100%; 
-    height: 100%; 
-    margin: auto;
-    border: 3px #000000;
-    box-shadow: 1px 1px 6px 1px #ccd0d5c2;
+    width: 100%;
+    margin: 1em auto; 
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .card-title {
     font-size: 18px;
     font-weight: 600;
+    padding: 1em;
+    text-align: center;
 }
 .card-text {
     font-size: 16px;
-    margin-top: 3em;
+    padding: 10px;
+    overflow: auto;
+
+}
+.card-buttons {
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    flex-direction: row;
+    padding: 1em;
+}
+.card-buttons .dropdown {
+    margin: 0; 
+}
+
+.card > .list-group {
+    width: 100%;
+    height: 100%;
+
 }
 
 /* Yellow bubbles in cards */
+#bubble-background {
+    background-color: #B3C5D5;
+    padding: 1em;
+}
+#bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #B3C5D5;
+}
 
-.list-group {
+.card > .list-group {
     width: 100%;
 }
-ul, li, .badge {
+ul,
+li,
+.badge {
     font-size: 16px;
-    padding: .3em;
-    margin: .3em;
+    padding: 0.3em;
+    margin: 0.3em;
 }
-li, .badge {
+li,
+.badge {
     min-height: 1em;
     position: relative;
 }
@@ -56,102 +94,29 @@ li, .badge {
 }
 .btn {
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
     margin-bottom: 1em;
     background-color: #000000;
     color: #ffffff;
 }
-
 .btn:hover {
-    border: 1px;
-    border-color: #000000;
+    border: 1px solid #000000;
     background-color: #ffffff;
     color: #000000;
 }
 
-/* Headers */
-
-.projects > h3 {
-    bottom: 1em;
-}
-h3 {
-    margin-top: 2em;
-    padding: 30px 0 8px;
-    color: #040232;
-    text-shadow: -2px 0px 0px #ffffff;
-    text-align: center;
-    z-index: 0;
-  }
-  h3:before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 175px;
-    height: 30px;
-    transform: skew(-12deg) translateX(-50%);
-    background: #f2bc02;
-    z-index: -1;
-  }
-
 
 
 /* Project buttons */
-
 #card-bottom {
     background-color: #a7bc5b;
     min-height: 3em;
 }
-
-#card-bottom, a {
+#card-bottom,
+a {
     text-align: center;
 }
-  
 .project-concepts {
     color: #000000;
 }
 
-
-
-
-
-
-@media(width < 1024px) {
-
-    .card-title {
-        font-size: 20px;
-    }
-    .card-text {
-        top: .5em;
-        font-size: 16px;
-    }
-    .projects > h3 {
-        bottom: 1em;
-    }
-    h5 {
-        min-height: 1em;
-    }
-
-    ul > li > .badge {
-        font-size: 14px;
-        bottom: 2em;
-    }
-}
-
-@media(width < 768px) {
-
-    span {
-        right: 1.7em;
-    }
-
-
-}
-
-@media(width < 480px) {
-
-    ul > li > .badge {
-        bottom: 3em;
-        left: -.5em;
-        font-size: 13px;
-    }
-
-
-}
