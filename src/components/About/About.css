@@ -1,4 +1,9 @@
 /* Updated styles for columns */
+.container-fluid {
+  min-width: 100vw;
+  overflow: hidden;
+}
+
 #intro {
   display: flex;
   flex-wrap: wrap;
@@ -8,7 +13,7 @@
   background-color: #ffffff;
   padding: 2em;
   margin-top: 8em;
-  width: 100%;
+  max-width: 100%;
 }
 
 #intro > .col-right,
