@@ -11,7 +11,7 @@ class AboutMe extends Component {
 
       <div className="container-fluid" id="intro">
         <div className="col-left">
-         <img src="./assets/photo.jpg" alt="headshot" />
+         <img src="./assets/headshot.png" alt="headshot" />
         </div>
         <div className="col-right">
           <p>
