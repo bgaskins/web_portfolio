@@ -9,11 +9,11 @@ class Projects extends Component {
           <h3 id="project-header">PROJECTS</h3>
           <div className="row">
             {/* Card 1 */}
-            <div className="col-sm-4 p-2">
+            <div className="col-md-6 p-4">
               <div className="card h-100">
                 <img
                   src="./assets/FarmStandFinder.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="Jax's Market"
                 />
                 <div
@@ -82,11 +82,11 @@ class Projects extends Component {
             </div>
 
             {/* Card 2 */}
-            <div className="col-sm-4 p-2">
+            <div className="col-md-6 p-4">
               <div className="card h-100">
                 <img
                   src="./assets/lockedme.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="Locked Me"
                 />
                 <div
@@ -136,11 +136,11 @@ class Projects extends Component {
             </div>
 
             {/* Card 3 */}
-            <div className="col-sm-4 p-2">
+            <div className="col-md-6 p-4">
               <div className="card h-100">
                 <img
                   src="./assets/nms-preview.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="NMS Cinemas"
                 />
                 <div
@@ -203,11 +203,11 @@ class Projects extends Component {
             </div>
 
             {/* Card 4 */}
-            <div className="col-sm-4 p-2">
+            <div className="col-md-6 p-4">
               <div className="card h-100">
                 <img
                   src="./assets/jaxs-preview.png"
-                  className="card-img-top"
+                  className="card-img-top img-fluid"
                   alt="Jax's Market"
                 />
                 <div

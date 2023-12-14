@@ -25,13 +25,30 @@
 /* Cards */
 .card {
     background-color: #ffffff;
-    width: 100%;
     margin: 1em auto; 
     border: 1px solid #ffffff;
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.card-img-top {
+    width: 100%;
+    height: auto; 
+    max-height: 200px; 
+    object-fit: cover;
+}
+
+.card > .card-body > .card-img-top {
+    max-height: 200px;
+}
+
+.card-body {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
 .card-title {
     font-size: 18px;
     font-weight: 600;
@@ -120,3 +137,14 @@ a {
     color: #000000;
 }
 
+.col-md-6 {
+    width: 100%;
+}
+@media screen and (max-width: 768px) { 
+    .card-text {
+        font-size: 14px;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+}
