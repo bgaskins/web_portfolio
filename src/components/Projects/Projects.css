@@ -32,6 +32,10 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.card-img-top {
+    height: 200px;
+}
 .card-title {
     font-size: 18px;
     font-weight: 600;
@@ -103,6 +107,10 @@ li,
     border: 1px solid #000000;
     background-color: #ffffff;
     color: #000000;
+}
+
+p {
+    margin: 2em;
 }
 
 
