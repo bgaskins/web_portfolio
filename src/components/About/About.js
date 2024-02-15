@@ -6,7 +6,7 @@ class AboutMe extends Component {
     return (
       <div className="container-fluid" id="intro">
         <div className="col-left">
-          <img src="./assets/headshot.png" alt="headshot" />
+          {/* <img src="./assets/headshot.png" alt="headshot" /> */}
         </div>
         <div className="col-right">
           <p>
