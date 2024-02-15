@@ -22,13 +22,13 @@
   margin: 0.5em;
 }
 
-#intro > .col-left > img {
+/*#intro > .col-left > img {
   width: 100%;
   max-width: 400px;
   height: auto;
   margin-left: 7em;
   border: 1px solid #000000;
-}
+} */
 
 #intro > .col-right > p {
   font-size: 22px;
