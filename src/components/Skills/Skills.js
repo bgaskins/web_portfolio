@@ -16,7 +16,7 @@ class Skills extends Component {
   render() {
     return (
       <>
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className="row" id="skills-icon-group">
             <h3 id="skills-header">SKILLS</h3>
             <div className="col">
@@ -77,20 +77,20 @@ class Skills extends Component {
             <h3>EDUCATION</h3>
 
             {/* Promineo Tech */}
-            <div class="education-item">
-              <div class="education-img">
+            <div className="education-item">
+              <div className="education-img">
                 <img
                   src="./assets/promineologo.png"
                   alt="Promineo Tech logo"
-                  class="img-fluid"
+                  className="img-fluid"
                   name="logo"
                 />
               </div>
-              <div class="education-details">
-                <h4 class="card-title">
+              <div className="education-details">
+                <h4 className="card-title">
                   Promineo Tech / Quinsigamond Community College
                 </h4>
-                <p class="card-text">
+                <p className="card-text">
                   Front End Software Development Certificate
                   <br />
                   <FontAwesomeIcon
@@ -104,20 +104,20 @@ class Skills extends Component {
             </div>
 
             {/* Caltech CTME */}
-            <div class="education-item">
-              <div class="education-img">
+            <div className="education-item">
+              <div className="education-img">
                 <img
                   src="./assets/caltechlogo.png"
                   alt="Caltech Logo"
-                  class="img-fluid"
+                  className="img-fluid"
                   name="logo"
                 />
               </div>
-              <div class="education-details">
-                <h4 class="card-title">
+              <div className="education-details">
+                <h4 className="card-title">
                   Caltech Center for Technology and Management Education
                 </h4>
-                <p class="card-text">
+                <p className="card-text">
                   Full Stack Web Development Post Graduate Degree
                   <br />
                   <FontAwesomeIcon
@@ -131,18 +131,18 @@ class Skills extends Component {
             </div>
 
             {/* University of Vermont */}
-            <div class="education-item">
-              <div class="education-img">
+            <div className="education-item">
+              <div className="education-img">
                 <img
                   src="./assets/uvmlogo.png"
                   alt="UVM Logo"
-                  class="img-fluid"
+                  className="img-fluid"
                   name="logo"
                 />
               </div>
-              <div class="education-details">
-                <h4 class="card-title">University of Vermont</h4>
-                <p class="card-text">
+              <div className="education-details">
+                <h4 className="card-title">University of Vermont</h4>
+                <p className="card-text">
                   Bachelor of Arts Degree in Studio Art
                   <br />
                   <FontAwesomeIcon

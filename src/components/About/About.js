@@ -5,9 +5,9 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="container-fluid" id="intro">
-        <div className="col-left">
-          {/* <img src="./assets/headshot.png" alt="headshot" /> */}
-        </div>
+        {/*<div className="col-left">
+          <img src="./assets/headshot.png" alt="headshot" /> 
+        </div>*/}
         <div className="col-right">
           <p>
             <strong>Hello, I'm Bryan.</strong> I'm an artist and full stack web

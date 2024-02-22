@@ -12,29 +12,30 @@
   color: #000000;
   background-color: #ffffff;
   padding: 2em;
-  margin-top: 8em;
+  margin-top: 10em;
+  margin-bottom: 4em;
   max-width: 100%;
+  padding: 4em;
 }
 
-#intro > .col-right,
+/*#intro > .col-right,
 #intro > .col-left {
   flex: 1;
   margin: 0.5em;
 }
 
-/*#intro > .col-left > img {
+#intro > .col-left > img {
   width: 100%;
   max-width: 400px;
   height: auto;
   margin-left: 7em;
   border: 1px solid #000000;
 } */
-
 #intro > .col-right > p {
   font-size: 22px;
   text-align: justify;
   margin: 0.5em; 
-  margin-right: 5em;
+  /*margin-right: 5em;*/
 
 }
 
@@ -52,12 +53,17 @@ span {
 
 /* Media queries */
 @media screen and (max-width: 1024px) {
+  #intro {
+    padding: 2em;
+    margin-top: 5em;
+    margin-bottom: 1.5em; 
+  }
 
-  #intro > .col-left > img {
+  /*#intro > .col-left > img {
     max-width: 280px;
     margin-left: 4em;
   
-  }
+  }*/
 
   #intro > .col-right > p {
     font-size: 20px;
@@ -69,12 +75,14 @@ span {
 
 @media screen and (max-width: 768px) {
   #intro {
+    margin-top: 8em;
+    margin-bottom: 1.5em;
     padding: 1em;
     flex-direction: column;
     align-items: center;
   }
 
-  #intro > .col-left > img {
+  /*#intro > .col-left > img {
     width: 100%;
     max-width: 350px;
     height: auto;
@@ -82,7 +90,7 @@ span {
     margin-bottom: 2em;
     margin-right: 7em;
 
-  }
+  }*/
 
   #intro > .col-right > p {
     font-size: 20px; /* Adjust font size for better spacing */
@@ -94,8 +102,16 @@ span {
 
 @media screen and (max-width: 480px) {
 
-  #intro > .col-left > img {
+  /*#intro > .col-left > img {
     margin-left: -.1em;
+
+  }*/
+
+  #intro {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    padding: 2em;
+
 
   }
   #intro > .col-right > p {
