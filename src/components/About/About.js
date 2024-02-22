@@ -16,7 +16,7 @@ class AboutMe extends Component {
             postgrad program.
             <br />
             <br />
-            Now I build responsive and dynamic web applications from backend to
+            Now I build responsive and dynamic web applications from back end to
             front end.
             <br />
             <br />
@@ -25,7 +25,7 @@ class AboutMe extends Component {
             <br />
             <br />
             Prior to web development, I wore many hats. I have experience in
-            marketing for live events, sales, and even real estate.
+            marketing for live events, sales, and real estate.
           </p>
         </div>
       </div>
